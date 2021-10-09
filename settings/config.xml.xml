@@ -65,14 +65,16 @@
         <note>Which department are you working in?</note>
         <input type="text" required="true"></input>
 
-        <label>Campus location*</label>
+        <label>Campus Location*</label>
         <note>Please select which campus you work on: </note>
         <input type="select" required="true">Riyadh;Jeddah;Alahsa</input>
 
-        <label>How long is your experience with simulation teaching*</label>
+        <label>Experience*</label>
+        <note>How long have you been teaching using Medical Simulation? </note>
         <input type="text" required="true"></input>
 
-        <label>Please add any comments regarding the sorting process, or any other thoughts you have:</label>
+        <label>Additional Comments</label>
+        <note>Please add any comments regarding the sorting process, or any other thoughts you have:</note>
         <input type="textarea" required="false"></input>
 
      </item>
