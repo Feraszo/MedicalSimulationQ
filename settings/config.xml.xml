@@ -42,34 +42,38 @@
         <note bg="true">All fields marked with an * are mandatory</note>
 
         <label>Age*</label>
-        <note>Please enter your year of birth (YYYY, eg. 1980).</note>
+        <note>Please enter your year of birth (YYYY, eg. 1980):</note>
         <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
         <label>Gender*</label>
+        <note>Please select your gender:</note>
         <input type="select" required="true">Male;Female</input>
 
         <label>Qualification*</label>
-        <note>Please list your qulifications</note>
+        <note>Please list your qulifications:</note>
         <input type="textarea" required="true"></input>
 
         <label>Designation</label>
-        <note>Please identify your posiiton in the department</note>
+        <note>Please specify your position in the department:</note>
         <input type="text" required="false"></input>
 
         <label>Specialty*</label>
+        <note>What is your specialty?</note>
         <input type="text" required="true"></input>
 
         <label>Department*</label>
+        <note>Which department are you working in?</note>
         <input type="text" required="true"></input>
 
         <label>Campus location*</label>
+        <note>Please select which campus you work on: </note>
         <input type="select" required="true">Riyadh;Jeddah;Alahsa</input>
 
         <label>How long is your experience with simulation teaching*</label>
         <input type="text" required="true"></input>
 
-        <label>Please add any comments regarding the sorting process, or any other thoughts you have</label>
-        <input type="textarea" required="true"></input>
+        <label>Please add any comments regarding the sorting process, or any other thoughts you have:</label>
+        <input type="textarea" required="false"></input>
 
      </item>
 
