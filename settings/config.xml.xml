@@ -72,6 +72,8 @@
         <label>Experience*</label>
         <note>How long have you been teaching using Medical Simulation? </note>
         <input type="text" required="true"></input>
+        <note> Have you had any previous training on the use of Medical Simulation? </note>
+        <input type="select" required="true">Yes;No</input>
 
         <label>Additional Comments</label>
         <note>Please add any comments regarding the sorting process, or any other thoughts you have:</note>
